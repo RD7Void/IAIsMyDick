@@ -42,13 +42,13 @@ Baixe na [página de releases (v1.0)](https://github.com/RD7Void/IAIsMyDick/rele
 
 [![Download APK Android](https://img.shields.io/badge/Android-APK_ARM64-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/RD7Void/IAIsMyDick/releases/tag/1.0)
 [![Download APK Android antigo](https://img.shields.io/badge/Android_antigo-APK_ARMv7-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/RD7Void/IAIsMyDick/releases/tag/1.0)
-[![Download Windows](https://img.shields.io/badge/Windows-EXE_portátil-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/RD7Void/IAIsMyDick/releases/tag/1.0)
+[![Download Windows](https://img.shields.io/badge/Windows-ZIP_port%C3%A1til-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/RD7Void/IAIsMyDick/releases/tag/1.0)
 
 | Plataforma | Arquivo |
 |---|---|
 | **Android** | `app-arm64-v8a-release.apk` — celulares modernos (recomendado) |
 | **Android (antigo)** | `app-armeabi-v7a-release.apk` |
-| **Windows** | `ai_is_my_dick.exe` — portátil, não precisa instalar |
+| **Windows** | `IAIsMyDick_Win.zip` — portátil: extraia e execute o `ai_is_my_dick.exe`, não precisa instalar |
 
 > No Android, permita "instalar de fontes desconhecidas" ao abrir o APK.
 
