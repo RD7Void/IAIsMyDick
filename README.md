@@ -66,28 +66,6 @@ flutter build apk --release --split-per-abi
 flutter build web --release
 ```
 
-## Estrutura do projeto
-
-```
-lib/
-├── main.dart              # bootstrap
-├── app.dart               # MaterialApp + casca responsiva
-├── core/
-│   ├── models.dart        # ImageScan, AiAnalysis, vereditos
-│   ├── scanner.dart       # parser byte-a-byte (JPEG/PNG/WEBP/GIF)
-│   ├── platform_io.dart   # abstração de I/O (desktop/mobile vs web)
-│   └── desktop_window.dart# janela de desktop (stub na web)
-├── state/
-│   └── app_state.dart     # estado global + persistência
-├── theme/
-│   ├── tokens.dart        # paleta (acento customizável)
-│   └── app_theme.dart     # ThemeData claro/escuro
-└── ui/
-    ├── shell.dart         # fundo ambiente, sidebar, HUD, nav inferior
-    ├── title_bar.dart     # barra de título tematizada (desktop)
-    ├── widgets.dart       # cards, botões, chips
-    └── pages/             # painel, remoção, detector, lote, configurações
-```
 
 ## Responsividade
 
