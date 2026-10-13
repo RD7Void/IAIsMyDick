@@ -4,7 +4,7 @@
 
 Escaneia o arquivo byte a byte (APP1/APP0 do JPEG, chunks do PNG, RIFF do WEBP, blocos do GIF), mostra exatamente o que está escondido, detecta assinaturas de geradores de IA e recorta os metadados **sem recompressão** — qualidade idêntica, arquivo sempre menor ou igual.
 
-> Repo: `RD7VOID/IAIsMyDick`
+> Repo: `RD7Void/IAIsMyDick`
 
 ---
 
@@ -38,48 +38,19 @@ Toda foto que você tira ou gera carrega dados escondidos: GPS, modelo do celula
 
 ## Download
 
-| Plataforma | Como obter |
+Baixe na [página de releases (v1.0)](https://github.com/RD7Void/IAIsMyDick/releases/tag/1.0):
+
+[![Download APK Android](https://img.shields.io/badge/Android-APK_ARM64-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/RD7Void/IAIsMyDick/releases/tag/1.0)
+[![Download APK Android antigo](https://img.shields.io/badge/Android_antigo-APK_ARMv7-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/RD7Void/IAIsMyDick/releases/tag/1.0)
+[![Download Windows](https://img.shields.io/badge/Windows-EXE_portátil-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/RD7Void/IAIsMyDick/releases/tag/1.0)
+
+| Plataforma | Arquivo |
 |---|---|
-| **Windows** | `Release` → `ai_is_my_dick.exe` (portátil) |
-| **Android** | `Release` → `app-arm64-v8a-release.apk` (instalar de fontes desconhecidas) |
-| **Web** | GitHub Pages / deploy próprio (`flutter build web`) |
-| **iOS** | Compilar no macOS (`flutter build ios`) |
+| **Android** | `app-arm64-v8a-release.apk` — celulares modernos (recomendado) |
+| **Android (antigo)** | `app-armeabi-v7a-release.apk` |
+| **Windows** | `ai_is_my_dick.exe` — portátil, não precisa instalar |
 
-## Build do zero
-
-Pré-requisito: [Flutter SDK](https://docs.flutter.dev/get-started/install) 3.x
-
-```bash
-git clone https://github.com/RD7VOID/IAIsMyDick.git
-cd IAIsMyDick
-flutter pub get
-
-# Windows
-flutter build windows --release
-
-# Android (APK universal)
-flutter build apk --release
-# Android (APK otimizado por arquitetura)
-flutter build apk --release --split-per-abi
-
-# Web
-flutter build web --release
-```
-
-
-## Responsividade
-
-- **≥ 1040px** — layout completo com sidebar e painéis lado a lado
-- **640–1040px** — sidebar compacta, colunas empilham
-- **< 640px (celular)** — sidebar sai, entra barra de navegação inferior; HUD mostra só o essencial
-
-## Stack
-
-[Flutter](https://flutter.dev) (Dart) · `file_picker` · `shared_preferences` · `window_manager` · zero dependências de rede
-
-## Licença
-
-Defina aqui a licença do projeto (ex.: MIT, GPL-3.0). Sugestão: criar o arquivo `LICENSE` e referenciá-lo neste README.
+> No Android, permita "instalar de fontes desconhecidas" ao abrir o APK.
 
 ---
 
